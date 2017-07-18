@@ -1,0 +1,27 @@
+{
+  "name": "4wmarketplace/zend-press",
+  "description": "This is a simple library for use official wordpress API inside ZendFramework 2 projects.",
+  "license": "Apache",
+  "keywords": [
+    "zf2",
+    "wordpress",
+    "api",
+    "Zend Framework 2"
+  ],
+  "homepage": "https://github.com/4wmarketplace/zend-press",
+  "autoload": {
+    "psr-4": {
+      "ZendPress\\": "src/"
+    },
+    "classmap": [
+      "./Module.php"
+    ]
+  },
+  "require": {
+    "zendframework/zendframework": "~2.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": ">=4.7.0",
+    "codeclimate/php-test-reporter": "dev-master"
+  }
+}
